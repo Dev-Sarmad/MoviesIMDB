@@ -18,7 +18,7 @@ Popular Movies
 details
 search
 
-#Features
+# Features
 
 Search
 Pagination
