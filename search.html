@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="script.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Search Movie</title>
+</head>
+<body class="bg-[#2e2725]">
+    <div class="lds-facebook spinner">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <section class="search">
+        <div>
+          <form action="search.html">
+            <div class="search-flex flex justify-center mt-5">
+              <div class="search-radio mr-5">
+                <input
+                  type="checkbox"
+                  id="movie"
+                  name="type"
+                  value="movie"
+                  checked
+                />
+                <label for="movies " class="text-white">Movies</label>
+              </div>
+              <input
+                type="text"
+                name="search"
+                placeholder=" Search movie"
+                class="rounded-lg"
+              />
+              <button type="submit">
+                <i class="fas fa-search text-white ml-3"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+      <section class="container max-w-6xl mx-auto">
+        <div class="search-results flex flex-col justify-center items-center space-y-1 space-x-0 md:flex-row md:flex-wrap md:space-x-1 md:space-y-0 ">
+
+        </div>
+        <div id="pagination" class="container pl-5 text-white font-bold mt-5">
+
+      
+        </div>
+      </section>
+</body>
+</html>
