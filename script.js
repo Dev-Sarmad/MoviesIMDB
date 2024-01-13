@@ -279,7 +279,7 @@ function hideSpinner() {
 
 function appStart() {
   switch (global.currentPage) {
-    case "/index.html":
+    case "/":
       displayPopular();
       break;
     case "/details.html":
