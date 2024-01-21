@@ -201,8 +201,8 @@ const displaySearchResults = (searchResults) => {
     ${
       result.poster_path
         ? `<div
-        class="overflow-hidden bg-contain h-full w-full rounded-lg"
-        style="background-image: url(https://image.tmdb.org/t/p/w500/${result.poster_path})"
+        class="overflow-hidden bg-contain h-full w-full rounded-lg  bg-no-repeat "
+        style=" background:no-repeat url(https://image.tmdb.org/t/p/w500/${result.poster_path})"
       ></div>`
         : `<div
           class="overflow-hidden bg-contain h-full w-full rounded-lg"
